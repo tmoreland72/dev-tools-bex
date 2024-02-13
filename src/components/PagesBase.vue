@@ -1,8 +1,5 @@
 <template>
-   <q-page
-      class="q-pa-md bg-primary text-accent"
-      style="width: 640px; max-width: 50%"
-   >
+   <q-page class="q-pa-md bg-primary text-accent" style="width: 640px">
       <section class="column q-gutter-y-md">
          <q-breadcrumbs>
             <q-breadcrumbs-el icon="home" label="Home" :to="{name: 'home'}" />

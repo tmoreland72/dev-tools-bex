@@ -1,5 +1,5 @@
 {
-   "name": "DevTools by Troy",
+   "name": "TroyBEX",
    "description": "Extension for JavaScript developers",
    "version": "0.20230325.1",
    "manifest_version": 2,
@@ -9,7 +9,7 @@
       "128": "icons/icon-128x128.png"
    },
    "browser_action": {
-      "default_title": "Dev Tools by Troy",
+      "default_title": "TroyBEX",
       "default_popup": "www/index.html#"
    },
    "background": {

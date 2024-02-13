@@ -1,5 +1,5 @@
 <template>
-   <q-page class="q-pa-sm bg-primary" style="width: 640px; max-width: 50%">
+   <q-page class="q-pa-sm bg-primary" style="width: 640px">
       <template v-for="(feature, index) in Object.keys(features)" :key="index">
          <q-item-label class="text-grey-4" header>{{ feature }}</q-item-label>
          <section class="q-px-md row q-gutter-sm">
@@ -28,22 +28,22 @@ export default defineComponent({
             Converters: [{routeName: 'epochconverter', label: 'Epoch Time'}],
             Formatters: [
                {routeName: 'jsonformatter', label: 'JSON'},
-               {routeName: 'cssformatter', label: 'CSS'},
-               {routeName: 'htmlformatter', label: 'HTML'},
+               //  {routeName: 'cssformatter', label: 'CSS'},
+               //  {routeName: 'htmlformatter', label: 'HTML'},
             ],
             Encoders: [
                {routeName: 'jwtdecoder', label: 'JWT'},
                {routeName: 'base64', label: 'Base64'},
             ],
-            Generators: [
-               {routeName: 'firebase-client', label: 'Firebase Client'},
-               {
-                  routeName: 'firebase-server',
-                  label: 'Firebase Functions (Server)',
-               },
-               {routeName: 'quasar', label: 'Quasar Framework'},
-               {routeName: 'javascript', label: 'JavaScript (Plain)'},
-            ],
+            // Generators: [
+            //    {routeName: 'firebase-client', label: 'Firebase Client'},
+            //    {
+            //       routeName: 'firebase-server',
+            //       label: 'Firebase Functions (Server)',
+            //    },
+            //    {routeName: 'quasar', label: 'Quasar Framework'},
+            //    {routeName: 'javascript', label: 'JavaScript (Plain)'},
+            // ],
          },
       }
    },

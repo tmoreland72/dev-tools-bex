@@ -15,6 +15,11 @@ const routes = [
             component: () => import('src/pages/Encoders/JwtDecode.vue'),
          },
          {
+            name: 'base64',
+            path: 'base64',
+            component: () => import('src/pages/Encoders/Base64Encode.vue'),
+         },
+         {
             name: 'epochconverter',
             path: 'epochconverter',
             component: () => import('src/pages/Converters/EpochConverter.vue'),
